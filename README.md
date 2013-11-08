@@ -24,8 +24,8 @@ then you can check on your browser
     http://localhost/?plugin_call=hello
 ```
 * use port 27017 for mongodb gridfs
-* [node.js](http://nodejs.org/) is automatically installed if nothing  
-* hello is distributed as open project on [foonyah/skillup-hello](https://github.com/foonyah/skillup-hello)  
+* [node.js](http://nodejs.org/) is automatically installed if not exist  
+* _hello_ is distributed as open project on [foonyah/skillup-hello](https://github.com/foonyah/skillup-hello)  
 
 ##API
 #####simple http server :  
