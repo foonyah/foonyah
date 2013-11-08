@@ -1,18 +1,19 @@
 #風若 foonyah
 > /foo-nya/ ~ an service oriented architecture
 
-##3step guide
-1: To install the most recent release from fvm, run:
+##3 step guide
+1) To install the most recent release from fvm, run:
 ```sh
     curl https://fvm.cloudplus.me/install | sh
 ```
-2: Init foonyah project with skill-hello
+2) Init foonyah project with skill-hello
 ```sh
     foonyah init -with hello
 ```
-3: Launch server
+3) Launch server
 ```sh
     foonyah
+```
 then you can check on your browser
 ```
     http://localhost/?plugin_call=hello
@@ -24,7 +25,7 @@ then you can check on your browser
 ##API
 __simple http server :__  
   1 web-server (http-based, port 80)  
- ```js
+```js
 	require('foonyah').start();
 ```
 __change port :__  
