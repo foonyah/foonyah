@@ -6,6 +6,11 @@
 ```sh
     curl https://fvm.cloudplus.me/install | sh
 ```
+*,or source commands*
+```sh
+    git clone https://github.com/foonyah/fvm.git .fvm
+    source .fvm/fvm.sh install
+```
 2 ) Init foonyah project with skill-hello
 ```sh
     foonyah init -with hello
