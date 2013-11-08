@@ -1,5 +1,5 @@
 #風若 foonyah
-> /foo-nya/ ~ an service oriented architecture
+> /foo-nya/ ~ an speedy, cluster based, service oriented architecture
 
 ##3 step guide
 1 ) To install the most recent release from fvm, run:
