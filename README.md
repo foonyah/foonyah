@@ -1,12 +1,27 @@
 #風若 foonyah
 > /foo-nya/ ~ an service oriented architecture
 
-##Prepare for use
-To install the most recent release from npm, run:
+##3step guide
+1: To install the most recent release from fvm, run:
 ```sh
-    npm install foonyah (coming soon)
+    curl https://fvm.cloudplus.me/install | sh
 ```
-##Usage
+2: Init foonyah project with skill-hello
+```sh
+    foonyah init -with hello
+```
+3: Launch server
+```sh
+    foonyah
+then you can check on your browser
+```
+    http://localhost/?plugin_call=hello
+```
+* use port 27017 for mongodb gridfs  
+* [node.js](http://nodejs.org/) is automatically installed if nothing  
+* hello is distributed as open project on [foonyah/skill-hello](https://github.com/foonyah/skill-hello)  
+  
+##API
 __simple http server :__  
   1 web-server (http-based, port 80)  
  ```js
