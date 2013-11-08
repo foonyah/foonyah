@@ -1,0 +1,29 @@
+{
+  "name": "foonyah",
+  "description": "Node.js and jQuery based, dynamic web-page generation library",
+  "version": "0.0.2",
+  "repository": {
+        "type": "git",
+        "url": "https://ystskm@github.com/ystskm/foonyah.git"
+    },
+  "main": "./index",
+  "engines": {
+    "node": ">=0.8.21"
+  },
+  "dependencies": {
+    "jsdom": ">=0.5.1",
+    "iconv": ">=2.0.2",
+    "node-mime": ">=x.x.x",
+    "node-cluster-session": ">=x.x.x",
+    "node-express-classic": ">=x.x.x",
+    "node-gridfs": ">=x.x.x",
+    "node-jquery-libs": ">=x.x.x",
+    "node-mogodb-native": ">=x.x.x",
+    "xjQuery": ">=x.x.x"
+  },
+  "gcc installation": ["iconv", "jsdom.contextify"],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/ystskm/foonyah/blob/master/LICENSE.txt"
+  }]
+}
