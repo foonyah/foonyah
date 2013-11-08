@@ -25,18 +25,21 @@ then you can check on your browser
 ##API
 #####simple http server :  
 * 1 web-server (http-based, port 80)  
+
 ```js
 	require('foonyah').start();
 ```  
 
 __change port :__  
 * 1 web-server (http-based, port 8080)  
+
 ```js
 	require('foonyah').start(8080);
 ```  
 
 __with ssl :__  
 * 1 web-server (https-based, port 8080)  
+
 ```js
 	require('foonyah').start({
 	  http:{port:8080, ssl: {key:'pem_key.pem', cert:'pem_cert.pem'}}
@@ -46,6 +49,7 @@ __with ssl :__
 __add websocket :__  
 * 1 web-server (http-based, port 8080)  
 * with [websocket-handshaker](https://github.com/ystskm/websockets)  
+
 ```js
 	require('foonyah').start({
 	  http:{port:8080, websocket:true}
@@ -56,6 +60,7 @@ __foonyah-construction :__
 * 1 web-server ([express](http://expressjs.com/)-based, port 8081)  
 * with websockets  
 * mongodb-process for gridFS  
+
 ```js
 	require('foonyah').start({
 	  http:{ type:'express', port:8081, websocket:true },
