@@ -78,7 +78,7 @@ __foonyah-construction :__
 
 ##License
 [foonyah](https://github.com/foonyah/) is not full-OSS project yet.  
-if you want to use, [send the request](http://liberty-technology.biz/touchus/) to us.
+if you want to use, [send a request](http://liberty-technology.biz/touchus/) to [us](http://liberty-technology.biz/).
 
 ##Note
 DO NOT DELETE "tmp" DIRECTORY WHICH IS USED BY foonyah FOR SAVE
