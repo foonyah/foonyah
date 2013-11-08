@@ -24,35 +24,34 @@ then you can check on your browser
   
 ##API
 __simple http server :__  
-  1 web-server (http-based, port 80)  
+- 1 web-server (http-based, port 80)  
 ```js
 	require('foonyah').start();
 ```
 __change port :__  
-  1 web-server (http-based, port 8080)  
+- 1 web-server (http-based, port 8080)  
 ```js
 	require('foonyah').start(8080);
 ```
 __with ssl :__  
-  1 web-server (https-based, port 8080)  
+- 1 web-server (https-based, port 8080)  
 ```js
 	require('foonyah').start({
 	  http:{port:8080, ssl: {key:'pem_key.pem', cert:'pem_cert.pem'}}
 	});
 ```
 __add websocket :__  
-  1 web-server (http-based, port 8080)  
-  with websocket-handshaker  
-  [ystskm/websockets](https://github.com/ystskm/websockets)  
+- 1 web-server (http-based, port 8080)  
+- with [websocket-handshaker](https://github.com/ystskm/websockets)  
 ```js
 	require('foonyah').start({
 	  http:{port:8080, websocket:true}
 	});
 ```
 __foonyah-construction :__  
-  1 web-server ([express](http://expressjs.com/)-based, port 8081)  
-  with websockets  
-  (requires mongodb-process for gridFS)  
+- 1 web-server ([express](http://expressjs.com/)-based, port 8081)  
+- with websockets  
+- mongodb-process for gridFS  
 ```js
 	require('foonyah').start({
 	  http:{ type:'express', port:8081, websocket:true },
@@ -62,6 +61,10 @@ __foonyah-construction :__
 
 ##Documents
 ####[http://liberty-technology.biz/foonyahstation/docs/](http://liberty-technology.biz/foonyahstation/docs/)
+
+##License
+[foonyah](https://github.com/foonyah/) is not full-OSS project yet.  
+if you want to use, [send the request](http://liberty-technology.biz/touchus/) to us.
 
 ##Note
 DO NOT DELETE "tmp" DIRECTORY WHICH IS USED BY foonyah FOR SAVE
