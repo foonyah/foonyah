@@ -1,7 +1,8 @@
 #風若 foonyah
 > /foo-nya/ ~ an speedy, cluster based, service oriented architecture
 
-##3 step guide ( NOW, CONSTRUCTING. IF YOU WANT TO USE, LET US KNOW, PLEASE. )
+##3 step guide  
+###( Now, SHELLs are still constructing. If you want, LET US KNOW. )
 1 ) To install the most recent release from fvm, run:
 ```sh
     curl https://fvm.cloudplus.me/install | sh
